@@ -1,0 +1,264 @@
+.menu-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: transparent;
+  /* Additional styling for the sticky menu bar */
+}
+.homeSection {
+  margin-top: 40px;
+}
+
+.homeSection .img {
+  display: block;
+  width: 100% !important;
+  background-size: 50% 50%;
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center;
+  object-fit: scale-down;
+}
+
+.homeSection .cont {
+  margin-top: 20%;
+  line-height: 1.6;
+}
+.homeSection .cont p {
+  line-height: 1.6;
+}
+.main .heding {
+  margin: auto;
+  width: 100%;
+  padding: 100px 0 0 0;
+  font-size: 10vw;
+}
+.service {
+  background-color: #bdb6b6;
+  padding-bottom: 50px;
+}
+.service h1 {
+  text-align: center;
+}
+.service .card-img-top {
+  object-fit: scale-down;
+  height: 200px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 10%;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.about img {
+  display: block;
+  background-size: 50% 50%;
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center;
+  object-fit: scale-down;
+  margin-top: -50px;
+}
+.about .heding {
+  margin: auto;
+  width: 100%;
+  font-size: 10vw;
+}
+
+.contact h1 {
+  text-align: center;
+}
+.contact .img {
+  display: block;
+  background-size: 50% 50%;
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center;
+  object-fit: scale-down;
+}
+.contact .input {
+  display: grid;
+  gap: 20px;
+  padding-top: 20px;
+}
+.contact .inpName {
+  border-radius: 7px;
+  height: 40px;
+  background-color: #e1dede;
+  border: none;
+  text-align: center;
+  outline: none;
+}
+.contact .inptext {
+  border-radius: 7px;
+  background-color: #e1dede;
+  border: none;
+  text-align: center;
+  outline: none;
+}
+.contact .submitBtn {
+  width: 50%;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
+.team {
+  align-items: center;
+  background-color: #bdb6b6;
+  padding-bottom: 10px;
+}
+.team .altCenter {
+  width: 50%;
+}
+.team .swiper-cards {
+  margin: 25px 0 25px 0;
+  height: 72vh;
+  width: 50vw;
+}
+.team .altCenter h1 {
+  text-align: center;
+}
+.team .altCenter .col1 {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.team .altCenter .swipContainer {
+}
+.team .altCenter .swipContainer .col1 .teamImg {
+  display: block;
+  width: 100% !important;
+  height: 75vh;
+  // background-size: contain; /* Add this line to make the image fit within the div */
+  background-size: 100% 100%;
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center;
+  object-fit: scale-down;
+}
+
+.team .altCenter .swipContainer .col2 .cont {
+  padding-top: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+  .team .altCenter .swip {
+    width: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact .img {
+    display: block;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: scale-down;
+  }
+  .team .altCenter h1 {
+    margin: -24px 0 10px 0;
+  }
+  .team .altCenter {
+    width: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+  }
+  .team .swiper-cards {
+    margin: 24px 0 30px -224px;
+    // height: 33vh;
+    height: 49vh;
+    width: 50vw;
+  }
+  .team .altCenter .swipContainer .col1 .teamImg {
+    display: block;
+    width: 100% !important;
+    /* height: 75vh; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: scale-down;
+  }
+  .team .altCenter .col1 {
+    margin: -95px -31px 0 0;
+  }
+  .team .altCenter .swipContainer .col2 .cont {
+    padding-top: 32%;
+    font-size: 16px;
+  }
+  .card1 {
+    font-size: 12px;
+  }
+  .contact .imgCont {
+    display: flex;
+    justify-content: center;
+  }
+}
