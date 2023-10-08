@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  Button,
-  NavDropdown,
-  Navbar,
-  Nav,
-  Container,
-  Row,
-  Col,
-  Card,
-} from "react-bootstrap";
+import { Button, Container, Row, Col } from "react-bootstrap";
 
 import tech5 from "../Asset/img/contact.png";
 

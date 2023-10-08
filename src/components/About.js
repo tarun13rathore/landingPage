@@ -1,15 +1,6 @@
 import React from "react";
 import tech4 from "../Asset/img/about.png";
-import {
-  Button,
-  NavDropdown,
-  Navbar,
-  Nav,
-  Container,
-  Row,
-  Col,
-  Card,
-} from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import tech1 from "../Asset/img/img1.png";
 import tech2 from "../Asset/img/img2.png";
 import tech3 from "../Asset/img/img3.png";
